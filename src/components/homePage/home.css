@@ -1,0 +1,60 @@
+#BrownWord{
+    color: #88672a;
+}
+.hero-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://cdn.pixabay.com/photo/2015/06/30/18/36/st-826688_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    height: 800px;
+}
+
+.hero-container h1{
+    font-size: 4em;
+    text-align: end;
+    color: #3e7c39;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hero-text{
+    width: 60vw;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.hero-text button{
+    background-color: black;
+    padding: 1rem 1.3rem;
+    display: block;
+    border-radius: .8rem;
+    margin-left: auto;
+    color: white;
+    font-size: medium;
+    border: none;
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .hero-container{
+        height: 600px;
+    }
+    .hero-container h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .hero-text button{
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        font-size: 18px;
+    }
+    .hero-text{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
