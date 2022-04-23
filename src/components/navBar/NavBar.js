@@ -3,6 +3,7 @@ import FoodDeckLogo from '../../assets/FoodDeckLogo.png'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import './nav.css'
 
+
  const NavBar = () => {
    const[click, setClick] = useState(true);
 

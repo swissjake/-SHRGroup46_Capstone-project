@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import FoodDeckLogo from '../../assets/FoodDeckLogo.png'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
-import './nav.css'
+import './About.css'
 
- const NavBar = () => {
+ const About = () => {
    const[click, setClick] = useState(true);
 
       const handleToggle = () =>{
@@ -27,8 +27,9 @@ import './nav.css'
           </div>
       </div>
     </nav>
+    
     )
   }
 
 
-export default NavBar
+export default About
