@@ -23,7 +23,7 @@ import './nav.css'
           <li>Contact</li>
         </ul>
           <div onClick={handleToggle} className="nav-icons">
-              {click ? <AiOutlineMenu size={30}/> : <AiOutlineClose size={30} />}
+            {click ? <AiOutlineMenu size={30}/> : <AiOutlineClose size={30} />}
           </div>
       </div>
     </nav>
