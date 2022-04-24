@@ -27,7 +27,6 @@ import './About.css'
           </div>
       </div>
     </nav>
-    
     )
   }
 
