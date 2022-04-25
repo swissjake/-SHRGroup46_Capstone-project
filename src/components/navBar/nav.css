@@ -22,10 +22,12 @@ nav ul{
 
 nav ul li{
     padding: 5px 10px;
-    margin:0 10px 0 10px;
+    margin:0 10px;
     font-size: 20px;
     font-weight: 500;
+    position: relative;
 }
+
 nav ul li::before{
     content: "";
     height: 3px;
@@ -82,4 +84,4 @@ nav ul li:hover::before{
     .navbar-container{
         padding: 1rem 1rem;
     }
-} 
+
