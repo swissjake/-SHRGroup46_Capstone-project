@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
-h1 {
+.about h1 {
     font-family: Poppins, sans-serif;
     margin-top: 7rem;
     margin-left: 5rem;
@@ -19,7 +19,7 @@ h1 {
         margin: 7rem;
         display: none;
     }
-    p {
+    .about p {
         font-family: Poppins, sans-serif;
         justify-content: right;
     }
@@ -33,7 +33,7 @@ h1 {
     height: 450px;
     margin: 7rem;
 }
-p {
+.about p {
     font-family: Poppins, sans-serif;
     justify-content: right;
     margin: 5rem;
