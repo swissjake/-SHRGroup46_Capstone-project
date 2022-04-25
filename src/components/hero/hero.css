@@ -2,7 +2,7 @@
     color: #88672a;
 }
 .hero-container{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://cdn.pixabay.com/photo/2015/06/30/18/36/st-826688_1280.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../assets/coverImage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,6 +16,7 @@
     text-align: end;
     color: #3e7c39;
     font-family:Arial, Helvetica, sans-serif;
+    
 }
 .hero-text{
     width: 60vw;
@@ -26,8 +27,8 @@
     margin-bottom: 50px;
 }
 .hero-text button{
-    background-color: black;
-    padding: 1rem 1.3rem;
+    background-color:#3e7c39;
+    padding: 1rem 2.5rem;
     display: block;
     border-radius: .8rem;
     margin-left: auto;
