@@ -3,6 +3,7 @@ import FoodDeckLogo from '../../assets/FoodDeckLogo.png'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import './nav.css'
 
+
  const NavBar = () => {
    const[click, setClick] = useState(true);
 
@@ -23,7 +24,7 @@ import './nav.css'
           <li>Contact</li>
         </ul>
           <div onClick={handleToggle} className="nav-icons">
-              {click ? <AiOutlineMenu size={30}/> : <AiOutlineClose size={30} />}
+            {click ? <AiOutlineMenu size={30}/> : <AiOutlineClose size={30} />}
           </div>
       </div>
     </nav>
