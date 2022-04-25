@@ -26,6 +26,21 @@ nav ul li{
     font-size: 20px;
     font-weight: 500;
 }
+nav ul li::before{
+    content: "";
+    height: 3px;
+    width: 3px;
+    position: absolute;
+    background-color: #3e7c39;
+    bottom: 0; 
+    left: 10px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(0);
+}
+nav ul li:hover::before{
+    transform: scale(1);
+    width: 80%;
+}
 .nav-icons{
     display: none;
 }
@@ -60,6 +75,9 @@ nav ul li{
     .nav-close{
         position: absolute;
         left: -100%;
+    }
+    nav ul li::before{
+        display: none;
     }
     .navbar-container{
         padding: 1rem 1rem;
