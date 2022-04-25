@@ -27,6 +27,7 @@ nav ul li{
     font-weight: 500;
     position: relative;
 }
+
 nav ul li::before{
     content: "";
     height: 3px;
@@ -77,10 +78,10 @@ nav ul li:hover::before{
         position: absolute;
         left: -100%;
     }
-    .navbar-container{
-        padding: 1rem 1rem;
-    }
     nav ul li::before{
         display: none;
     }
-} 
+    .navbar-container{
+        padding: 1rem 1rem;
+    }
+
