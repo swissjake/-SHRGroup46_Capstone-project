@@ -49,6 +49,7 @@ nav ul li:hover::before{
 
 
 
+
 @media only screen and (max-width: 600px) {
     .nav-icons{
         display: block;
