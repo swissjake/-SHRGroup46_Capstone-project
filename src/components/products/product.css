@@ -3,7 +3,7 @@
     border: 1px soild red;
 }
 .product-container h1{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: #3e7c39;
     color: #ffffff;
     width: 80vw;
@@ -47,7 +47,7 @@
     display: flex;
 }
 .cards button{
-    padding: 5px 10px;
+    padding: 8px 10px;
     margin-top: 5px;
     font-size: medium;
     background-color: #3e7c39;
@@ -59,7 +59,32 @@
 .cards button:active {
     transform: scale(0.8);
 }
-
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.amount-adjust{
+    display: flex;
+    border: 1px solid #3e7c39;
+    align-items: center;
+    justify-content: center;
+}
+.amount-adjust p{
+    height: 100%;
+    padding: 3px 7px;
+    border-right: 1px solid #3e7c39;
+    font-size: 20px;
+    font-weight: 300;
+}
+.amount-adjust p:last-child{
+    border-right: none;
+    background-color: #eee;
+}
+.amount-adjust p:first-child{
+    background-color: #EEE;
+}
 
 
 
