@@ -99,3 +99,18 @@
         width: 90vw;
     }
 }
+@media only screen and (min-width: 600px) {
+    .cards-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 768px) {
+    .cards-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 992px) {
+    .cards-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
