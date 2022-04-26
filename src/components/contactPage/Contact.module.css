@@ -1,0 +1,126 @@
+.container{
+    background-color: #3E4F3C;
+    padding: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   padding: 4rem ;
+}
+
+.input{
+   
+    width: 100%;
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+    background-color: #3E4F3C;
+    border-radius: 20px;
+    border: none;
+    border-bottom:3px solid green ;
+    outline: none;
+    color: white;
+    box-shadow: 0px 4px 10px #3E4F3C;
+}
+
+.writeUs{
+    flex-basis:45%;
+
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+    
+}
+
+.formHeading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.message{
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    background-color: #3E4F3C;
+    border: none;
+    border-bottom:3px solid green ;
+    outline: none;
+  font-size: 1.5rem;
+color: white;
+}
+
+.formLabel{
+    font-size: 1.5rem;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.submit{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgb(4, 68, 4);
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+
+.contactText{
+    font-size: 1.3rem;
+    color: lightgray;
+    margin: 2rem 0;
+
+}
+
+.address,.addressLabel{
+color: white;
+font-size: 1.3rem;
+text-transform: capitalize;
+}
+
+.addressLabel{
+font-weight: bold;
+
+}
+
+.addressContainer{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgb(14, 66, 14);
+    padding: 0 2rem;
+    border-radius: 10px;
+    height: 90px;
+}
+
+
+@media screen and (max-width:1000px){
+    .writeUs{
+    margin:auto;
+flex-basis: 100%;
+    }
+
+    .contactText{
+        text-align: center;
+    }
+
+    .addressContainer{
+        padding: 0 1rem;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .address,.addressLabel{
+        font-size: 1rem;
+        }
+}
