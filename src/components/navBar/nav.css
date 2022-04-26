@@ -25,6 +25,7 @@ nav ul li{
     margin:0 10px;
     font-size: 20px;
     font-weight: 500;
+    position: relative;
 }
 nav ul li::before{
     content: "";
@@ -52,13 +53,10 @@ nav ul li:hover::before{
     .nav-icons{
         display: block;
     }
-    ul li{
-        display: none;
-    }
     .nav-ul{
         width: 100%;
         height: 100vh;
-        display:block;
+        display: block;
         position: absolute;
         padding-top: 1rem;
         top: 87px;
@@ -75,7 +73,6 @@ nav ul li:hover::before{
         width: 100%;
         font-weight: 700;
         text-align: center;
-        display: block;
     }
     .nav-close{
         position: absolute;
@@ -84,9 +81,8 @@ nav ul li:hover::before{
     .navbar-container{
         padding: 1rem 1rem;
     }
+    
     nav ul li::before{
         display: none;
     }
 } 
-
-
