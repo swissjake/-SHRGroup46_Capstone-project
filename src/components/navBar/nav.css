@@ -81,6 +81,7 @@ nav ul li:hover::before{
     .navbar-container{
         padding: 1rem 1rem;
     }
+    
     nav ul li::before{
         display: none;
     }

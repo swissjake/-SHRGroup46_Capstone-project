@@ -1,8 +1,10 @@
 import './App.css';
-import HomePage from './components/hero/Hero'
+import Hero from './components/hero/Hero'
 import NavBar from './components/navBar/NavBar'
+import About from './components/About/About'
 import Product from './components/products/Product';
 import Contact from "./components/contactPage/Contact"
+
 
 function App() {
   return (
@@ -12,7 +14,15 @@ function App() {
     <Product />
     <Contact/>
       {/*
+    <Hero />
+  <About />
 
+   
+
+  
+
+      {/*
+  <Product />
  <NavBar />
    <AboutPage/>
     <ProductPage/> */}
