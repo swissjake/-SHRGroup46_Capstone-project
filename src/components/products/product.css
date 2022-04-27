@@ -1,6 +1,7 @@
 .product-container{
     margin: 50px 0;
     border: 1px soild red;
+    margin-bottom: 100px;
 }
 .product-container h1{
     margin-bottom: 30px;
