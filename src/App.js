@@ -10,14 +10,9 @@ function App() {
   return (
     <>
      <NavBar />
-    <HomePage />
-    <Product />
-    <Contact/>
-      {/*
     <Hero />
   <About />
-
-   
+<Contact/>
 
   
 
