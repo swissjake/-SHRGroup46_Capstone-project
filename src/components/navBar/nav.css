@@ -45,6 +45,10 @@ nav ul li:hover::before{
 .nav-icons{
     display: none;
 }
+.navlink{
+    text-decoration: none;
+    color:#000
+}
 
 
 
@@ -52,6 +56,9 @@ nav ul li:hover::before{
 @media only screen and (max-width: 600px) {
     .nav-icons{
         display: block;
+    }
+    nav ul{
+        display: none;
     }
     .nav-ul{
         width: 100%;
@@ -73,10 +80,12 @@ nav ul li:hover::before{
         width: 100%;
         font-weight: 700;
         text-align: center;
+      
     }
     .nav-close{
         position: absolute;
         left: -100%;
+        display: inline-block;
     }
     .navbar-container{
         padding: 1rem 1rem;
