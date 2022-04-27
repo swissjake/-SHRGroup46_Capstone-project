@@ -7,6 +7,7 @@ import About from "./components/About/About";
 import Product from "./components/products/Product";
 import Contact from "./components/contactPage/Contact";
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -19,20 +20,8 @@ function App() {
         <Route path="/product" element={<Product />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
-
+      <Footer />
    
-      {/*
-    <Hero />
-  <About />
-<Contact/>
-
-  
-
-      {/*
-  <Product />
- <NavBar />
-   <AboutPage/>
-    <ProductPage/> */}
     </>
   );
 }
