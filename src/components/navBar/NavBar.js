@@ -10,9 +10,12 @@ import "./nav.css";
 const NavBar = () => {
   const [click, setClick] = useState(true);
 
+
   const handleToggle = () => {
     setClick((prevClick) => !prevClick);
   };
+
+  
 
   return (
     <nav>
