@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <NavBar />
+      {/* Routes Added */}
       <Routes>
         <Route exact path="/" element={<Hero />}></Route>
         <Route path="/about" element={<About />}></Route>
