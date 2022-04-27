@@ -19,6 +19,8 @@ function App() {
         <Route path="/product" element={<Product />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+
+   
       {/*
     <Hero />
   <About />
