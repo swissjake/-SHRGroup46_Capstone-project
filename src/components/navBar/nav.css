@@ -45,6 +45,10 @@ nav ul li:hover::before{
 .nav-icons{
     display: none;
 }
+.navlink{
+    text-decoration: none;
+    color:#000
+}
 
 
 
