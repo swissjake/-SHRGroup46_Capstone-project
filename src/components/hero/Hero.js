@@ -1,15 +1,20 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './hero.css'
+import {useNavigate} from 'react-router-dom'
 
-export default class HomePage extends Component {
-  render() {
+function Hero() {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/product')
+  }
     return (
       <div className="hero-container">
           <div className="hero-text">
               <h1>Welcome to the <strong id='BrownWord'>home</strong> of uncompromising <em id='BrownWord'>Variety</em> and <em id='BrownWord'>Quality</em> in cuisine</h1>
-              <button>Order Now</button>
+              <button onClick={handleClick}>Order Now</button>
           </div>
             </div>
     )
   }
-}
+
+export default Hero;
