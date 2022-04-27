@@ -51,4 +51,5 @@ const Footer = () => {
 
 //#062C30
 //#3e7c39
+//53236
 export default Footer
