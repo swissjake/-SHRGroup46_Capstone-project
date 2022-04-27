@@ -6,6 +6,7 @@ import yam from '../../assets/dish3.png';
 import salad from '../../assets/dish4.png';
 import noodles from '../../assets/dish5.png';
 import beans from '../../assets/dish6.png';
+import Currency from 'react-currency-formatter';
 
 const TopDishes = () => {
 	const h2_style = { textAlign: 'center', fontSize: '2.5rem' };
@@ -14,31 +15,37 @@ const TopDishes = () => {
 	const topDishes = [
 		{
 			image: friedRice,
-			price: '$15',
+			price: '2000',
 			text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, laudantium?',
 			foodHeader: 'fried rice'
 		},
 		{
 			image: egusi,
-			price: '$10',
+			price: '2200',
 			text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, laudantium?',
 			foodHeader: 'egusi'
 		},
 		{
+			image: yam,
+			price: '700',
+			text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, laudantium?',
+			foodHeader: 'yam'
+		},
+		{
 			image: salad,
-			price: '$20',
+			price: '200',
 			text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, laudantium?',
 			foodHeader: 'salad'
 		},
 		{
 			image: noodles,
-			price: '$15',
+			price: '1000',
 			text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, laudantium?',
 			foodHeader: 'noodles'
 		},
 		{
 			image: beans,
-			price: '$10',
+			price: '800',
 			text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, laudantium?',
 			foodHeader: 'beans'
 		}
@@ -52,7 +59,7 @@ const TopDishes = () => {
 					<div className={styles.col1}>
 						<div>
 							<h2 className={styles.foodHeader}>{item.foodHeader}</h2>
-							<p className={styles.price}>{item.price}</p>
+							<p className={styles.price}> <Currency quantity={item.price} currency="NGN"/></p>
 							<p>{item.text}</p>
 						</div>
 					</div>
