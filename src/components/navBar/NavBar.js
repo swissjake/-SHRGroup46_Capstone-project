@@ -26,16 +26,16 @@ const NavBar = () => {
           </Link>
         </div>
         <ul className={!click ? "nav-ul" : "nav-close"}>
-          <Link className="navlink" to="/">
+          <Link onClick={() => setClick(true)} className="navlink" to="/">
             <li>Home</li>
           </Link>
-          <Link className="navlink" to="/about">
+          <Link onClick={() => setClick(true)} className="navlink" to="/about">
             <li>About</li>
           </Link>
-          <Link className="navlink" to="/product">
+          <Link onClick={() => setClick(true)} className="navlink" to="/product">
             <li>Products</li>
           </Link>
-          <Link className="navlink" to="/contact">
+          <Link onClick={() => setClick(true)} className="navlink" to="/contact">
             <li>Contact</li>
           </Link>
         </ul>
